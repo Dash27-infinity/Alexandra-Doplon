@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManwhaSter Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><a href="#">ManwhaSter</a></h2>
+            <input type="checkbox" id="menu-toggler">
+            <label for="menu-toggler" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 18h18v-2H3zm0-7h18v-2H3zm0-7v-2h18V6H3z"/>
+                </svg>
+            </label>
+            <ul class="all-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#manwha">Manwha List</a></li>
+            </ul>
+            <button class="login-btn">LOG IN</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="login-btn" id="login-btn">
+            <div class="blur-bg-overlay"></div>
+            <div class="form-popup">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <div class="form-box login">
+                    <div class="form-details">
+                        <h2>Welcome Back</h2>
+                        <p>Please log in using your personal information.</p>
+                    </div>
+                    <div class="form-content">
+                        <h2>LOGIN</h2>
+                        <form action="#">
+                            <div class="input-field">
+                                <input type="text" required>
+                                <label>Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" required>
+                                <label>Password</label>
+                            </div>
+                            <button type="submit">Log In</button>
+                        </form>
+                        <div class="bottom-link">
+                            Don't have an account?
+                            <a href="#" id="signup-link">Signup</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-box signup">
+                    <div class="form-details">
+                        <h2>Create Account</h2>
+                        <p>Please sign up using your personal information.</p>
+                    </div>
+                    <div class="form-content">
+                        <h2>SIGNUP</h2>
+                        <form action="#">
+                            <div class="input-field">
+                                <input type="text" required>
+                                <label>Enter your email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" required>
+                                <label>Create password</label>
+                            </div>
+                            <button type="submit">Sign Up</button>
+                        </form>
+                        <div class="bottom-link">
+                            Already have an account?
+                            <a href="#" id="login-link">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <section class="homepage" id="home">
+        <div class="content">
+            <div class="text">
+                <h1>Welcome to ManwhaSter</h1>
+                <p>Your favorite place to read manwha online.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="info"></div>
+        <h2>About this Website</h2>
+        <p>We offer the best collection of manwha for enthusiasts around the world.</p>
+        <h3>My Story</h3>
+        <p>I made this website to share my favorite manwhas that I've read.<br>
+                ManwhaSter is a promotion-free manga website that permits readers to read a large number of manga for free.<br>
+                ManwhaSter has one of the biggest databases of manga covering all classifications and subgenres with various subjects and topics.<br>
+                Aside from an extensive content library, ManwhaSter additionally gives free clients premium quality features that might be expensive elsewhere.</p>
+        </div>
+    </section>
+
+    <section class="manwha" id="manwha">
+        <div class="title">
+            <h2>Manwha List</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="wrapper">
+            <div class="card">
+                <img src="inso's law.jpg" alt="Inso's Law">
+                <div class="info">
+                <h1>Inso's Law</h1>
+                <button class="law-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="study group.jpg" alt="Study Group">
+                <div class="info">
+                <h1>Study Group</h1>
+                <a href="#study" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="eleceed.jpg" alt="Eleceed">
+                <div class="info">
+                <h1>Eleceed</h1>
+                <a href="#elecced" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="lookism.jpg" alt="Lookism">
+                <div class="info">
+                <h1>Lookism</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="solo leveling.jpg" alt="Solo Leveling">
+                <div class="info">
+                <h1>Solo Leveling</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Daytime Star.jpg" alt="Daytime Star">
+                <div class="info">
+                <h1>Daytime Star</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="baby squirrel.jpg" alt="Baby Squirrel">
+                <div class="info">
+                <h1>Baby Squirrel</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="being raised by villains.jpg" alt="Being Raised by Villains">
+                <div class="info">
+                <h1>Being Raised by Villains</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="CoupleBreaker.jpg" alt="Couple Breaker">
+                <div class="info">
+                <h1>Couple Breaker</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="DreamingFreedom.jpg" alt="Dreaming Freedom">
+                <div class="info">
+                <h1>Dreaming Freedom</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="HotBlackTea.jpg" alt="Hot Black Tea">
+                <div class="info">
+                <h1>Hot Black Tea</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="jinx.jpg" alt="Jinx">
+                <div class="info">
+                <h1>Jinx</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="LifeStartAsActor.jpg" alt="Life Starts as an Actor">
+                <div class="info">
+                <h1>Life Starts as an Actor</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="LiveAsActor.jpg" alt="I will live as an actor">
+                <div class="info">
+                <h1>I will live as an actor</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="PretendingWorthless.jpg" alt="My Life Pretending to be Worthless">
+                <div class="info">
+                <h1>My Life Pretending to be Worthless</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="PureLoveOperation.jpg" alt="Pure Love Operation">
+                <div class="info">
+                <h1>Pure Love Operation</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="RewritingTheVillainess.jpg" alt="Rewriting The Villainess">
+                <div class="info">
+                <h1>Rewriting The Villainess</h1>
+                <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Silang, Cavite, Philippines | Contact: 0957-476-1511 | Email: alexandradoplon16a27</p>
+    </section>
+
+</body>
+</html>
